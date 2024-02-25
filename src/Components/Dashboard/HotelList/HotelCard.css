@@ -1,0 +1,61 @@
+.hotel-card {
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  overflow: hidden;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  /* margin-bottom: 20px; */
+}
+
+.hotel-img {
+  width: 100%;
+  height: 200px;
+  object-fit: cover;
+}
+
+.hotel-details {
+  padding: 20px;
+}
+
+.hotel-name {
+  font-size: 20px;
+  margin-bottom: 10px;
+}
+
+.hotel-description {
+  font-size: 16px;
+  margin-bottom: 10px;
+}
+
+.hotel-price {
+  font-size: 18px;
+  font-weight: bold;
+}
+.button-container {
+  display: flex;
+  justify-content: space-between; /* Adjust as needed */
+}
+
+.edit-button,
+.delete-button {
+  /* Add your button styles here */
+  padding: 10px 20px;
+  background-color: #007bff;
+  color: #ffffff;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.delete-button {
+  background-color: #dc3545;
+}
+
+.edit-button:hover,
+.delete-button:hover {
+  background-color: #0056b3;
+}
+
+.edit-button:focus,
+.delete-button:focus {
+  outline: none;
+}

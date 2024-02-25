@@ -1,0 +1,28 @@
+/* footer.css */
+
+.footer {
+  background-color: black;
+  color: #fff;
+  padding: 40px 20px;
+}
+
+.fLists {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  gap: 20px;
+}
+
+.fList {
+  list-style-type: none;
+  padding: 0;
+}
+
+.fListItem {
+  margin-bottom: 10px;
+}
+
+.fText {
+  text-align: center;
+  margin-top: 20px;
+}

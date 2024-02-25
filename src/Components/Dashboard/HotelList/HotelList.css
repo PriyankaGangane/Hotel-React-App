@@ -1,0 +1,16 @@
+.hotel-list {
+  display: flex;
+  overflow-x: auto; /* Allow horizontal scrolling if needed */
+  gap: 100px; /* Adjust the gap between cards as needed */
+  padding: 20px; /* Add padding around the hotel list */
+}
+
+.hotel-list::-webkit-scrollbar {
+  display: none; /* Hide scrollbar */
+}
+
+/* Optional: Limit the width of the container to prevent overflow */
+.hotel-list-container {
+  max-width: 100%;
+  overflow-x: auto; /* Allow horizontal scrolling if needed */
+}

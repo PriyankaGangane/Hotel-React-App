@@ -1,0 +1,18 @@
+.room-list {
+  margin-left: 40px;
+  display: flex;
+  overflow-x: auto; /* Allow horizontal scrolling if needed */
+  gap: 40px; /* Adjust the gap between room images as needed */
+  padding: 20px; /* Add padding around the room list */
+}
+
+.room-item {
+  flex: 0 0 auto; /* Prevent items from stretching */
+}
+
+.room-img {
+  width: 200px; /* Adjust image width as needed */
+  height: 150px; /* Adjust image height as needed */
+  object-fit: cover;
+  border-radius: 8px;
+}
