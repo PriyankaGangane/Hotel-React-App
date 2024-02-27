@@ -23,7 +23,7 @@ const LoginPage = ({ setUser }) => {
       http: await axios.post("/auth/login", formData);
       alert("Login successful!");
       localStorage.setItem("user", JSON.stringify(formData.email));
-      setUser({ email: "abc@gmail.com" });
+      setUser({ email:formData.email });
       navigate("/dashboard");
       // Redirect to another page or do something else on successful login
     } catch (error) {

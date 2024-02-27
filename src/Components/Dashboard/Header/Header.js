@@ -5,7 +5,6 @@ const Header = ({ backgroundImage, title, user }) => {
   return (
     <header
       className="header"
-      //   style={{ backgroundImage: `url(${backgroundImage})` }}
       style={{ backgroundColor: "#003580" }}
     >
       <div className="header-content">

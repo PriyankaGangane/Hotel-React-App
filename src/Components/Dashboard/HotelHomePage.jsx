@@ -1,21 +1,3 @@
-// import React from "react";
-// import Navbar from "./Navbar/Navbar";
-// import Header from "./Header/Header";
-
-// function HotelHomePage() {
-//   return (
-//     <>
-//       <Navbar />
-//       <Header
-//         backgroundImage={"../../../public/images/hotel1.jpeg"}
-//         title="hello"
-//       />
-//     </>
-//   );
-// }
-
-// export default HotelHomePage;
-
 import React, { useState } from "react";
 import Navbar from "./Navbar/Navbar";
 import Header from "./Header/Header";
@@ -29,9 +11,8 @@ function HotelHomePage({ user }) {
   return (
     <>
       <Navbar user={user} />
-      {/* {user ? <h1>Welcome, {user.name}</h1> : <LoginPage setUser={setUser} />} */}
       <Header
-        backgroundImage={"/images/hotel1.jpeg"} // corrected path
+        backgroundImage={"/images/hotel1.jpeg"} 
         title="hello"
         user={user}
       />

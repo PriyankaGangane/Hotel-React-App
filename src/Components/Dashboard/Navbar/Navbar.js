@@ -22,35 +22,19 @@ const Navbar = ({ user, setUser }) => {
   const linkStyle = {
     color: "#fff",
     textDecoration: "none",
-    margin: "0 1rem", // Add some margin between links
+    margin: "0 1rem", 
   };
   const navigate = useNavigate();
 
   const handleogout = () => {
     localStorage.removeItem("user");
-    // setUser(null); // Assuming setUser is a function to update the user state
     navigate("/login");
   };
   return (
     <nav style={navStyle}>
       <h3>Hotel Navbar</h3>
       <ul style={ulStyle}>
-        {/* <li>
-          <Link style={linkStyle} to="/">
-            Hotel Places
-          </Link>
-        </li>
-        <li> */}
-        {/* <Link style={linkStyle} to="/about">
-            Romms
-          </Link>
-        </li>
-        <li>
-          <Link style={linkStyle} to="/contact">
-            Booking
-          </Link>
-        </li> */}
-
+       
         <li>
           {user ? (
             user.email
