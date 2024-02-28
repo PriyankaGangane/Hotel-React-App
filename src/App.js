@@ -1,4 +1,4 @@
-import logo from "./logo.svg";
+//import logo from "./logo.svg";
 import "./App.css";
 import RegisterPage from "./Components/Authentication/RegisterPage";
 import LoginPage from "./Components/Authentication/LoginPage";
