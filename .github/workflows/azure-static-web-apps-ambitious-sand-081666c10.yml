@@ -19,6 +19,8 @@ jobs:
         with:
           submodules: true
           lfs: false
+      - name: run install
+        run: npm install
       - name: run build
         run: npm run build
       - name: Build And Deploy
