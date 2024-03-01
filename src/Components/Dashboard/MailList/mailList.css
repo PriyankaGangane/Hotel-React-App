@@ -1,7 +1,7 @@
 .mail {
   /* width: 100%; */
   /* margin-top: 50px; */
-  background-color: #003580;
+  background-color: #049494;
   color: white;
   display: flex;
   flex-direction: column;
@@ -38,7 +38,7 @@
 .mailButton {
   height: 30px; /* Adjust button height */
   min-width: 80px; /* Adjust button width */
-  background-color: #0071c2;
+  background-color: #28f0f7;
   color: white;
   font-weight: 500;
   border: none;
