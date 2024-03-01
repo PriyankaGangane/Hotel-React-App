@@ -19,7 +19,7 @@ const EditHotelPage = () => {
     // Fetch hotel data by ID when component mounts
     const fetchHotel = async () => {
       try {
-        const response = await axios.get(`/hotels/${id}`);
+        const response = await axios.get(`https://reacthotelbackend.azurewebsites.net/api/hotels/${id}`);
         const { name, address, rating, imageUrl } = response.data; // Destructure imageUrl from response data
         setFormData({ name, address, rating, imageUrl }); // Set imageUrl in the state
       } catch (error) {
@@ -37,7 +37,7 @@ const EditHotelPage = () => {
   const handleSubmit = async (e) => {
     e.preventDefault();
     try {
-      await axios.put(`/hotels/${id}`, formData);
+      await axios.put(`https://reacthotelbackend.azurewebsites.net/api/hotels/${id}`, formData);
       alert("Hotel updated successfully!");
 
       navigate("/dashboard");

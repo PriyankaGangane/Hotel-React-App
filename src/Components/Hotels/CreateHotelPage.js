@@ -21,7 +21,7 @@ const CreateHotelPage = () => {
   const handleSubmit = async (e) => {
     e.preventDefault();
     try {
-      await axios.post("/hotels", formData);
+      await axios.post("https://reacthotelbackend.azurewebsites.net/api/hotels", formData);
       alert("Hotel created successfully!");
       navigate("/dashboard");
     } catch (error) {
