@@ -6,7 +6,7 @@ import RoomList from "./HotelList/RoomList";
 import MailList from "./MailList/MailList";
 import Footer from "./Footer/Footer";
 import LoginPage from "../Authentication/LoginPage";
-import ChatbotComponent from "./ChatBot/Chat";
+import ChatbotComponent from "./ChatBot/ChatBot";
 
 function HotelHomePage({ user }) {
   return (
