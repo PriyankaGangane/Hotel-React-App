@@ -22,7 +22,7 @@ const RegisterPage = () => {
     e.preventDefault();
     try {
       //localhost:5000/api/auth/register
-      http: await axios.post("https://reacthotelbackend.azurewebsites.net/auth/register", formData);
+      http: await axios.post("https://reacthotelbackend.azurewebsites.net/api/auth/register", formData);
       alert("Registration successful!");
       navigate("/login");
     } catch (error) {
