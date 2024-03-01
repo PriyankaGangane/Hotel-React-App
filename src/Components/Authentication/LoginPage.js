@@ -20,7 +20,7 @@ const LoginPage = ({ setUser }) => {
     e.preventDefault();
     try {
       //localhost:5000/api/auth/login
-      http: await axios.post("https://reacthotelbackend.azurewebsites.net/auth/login", formData);
+      http: await axios.post("https://reacthotelbackend.azurewebsites.net/api/auth/login", formData);
       alert("Login successful!");
       localStorage.setItem("user", JSON.stringify(formData.email));
       setUser({ email:formData.email });
