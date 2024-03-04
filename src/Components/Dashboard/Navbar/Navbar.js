@@ -32,7 +32,7 @@ const Navbar = ({ user, setUser }) => {
   };
   return (
     <nav style={navStyle}>
-      <h3>Hotel Navbar</h3>
+      <h3>MOONLIGHT</h3>
       <ul style={ulStyle}>
        
         <li>
