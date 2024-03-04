@@ -5,7 +5,7 @@ const Header = ({ backgroundImage, title, user }) => {
   return (
     <header
       className="header"
-      style={{ backgroundColor: "#301934" }}
+      style={{ backgroundColor: "#7F00FF" }}
     >
       <div className="header-content">
         <h1 className="headerTitle">A lifetime of discounts? It's Genius.</h1>
